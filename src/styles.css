@@ -1,0 +1,43 @@
+.carousel {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.5s;
+  }
+  
+  .carousel img:not(:first-child) {
+    display: none;
+  }
+  /* Estilos para el botón */
+.carousel-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3f3f41;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-button:hover {
+    background-color: #3f3f41;
+  }
+  .carousel-page {
+    background-color: #b1b1b8; /* Cambia el color de fondo solo en la página del carrusel */
+  }
+  
+  
+  
+  
+  
